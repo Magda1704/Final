@@ -1,4 +1,8 @@
+/* Header */
+
+
 .conteiner {
+
     width: 100%;
     height: 100vh;
     background-image: url(../images/Mask\ group.jpg);
@@ -66,6 +70,11 @@
     margin: 120px auto;
     width: 120px;
 }
+ 
+
+/* Section 1 */
+
+
 .section1 {
     width: 80%;
     margin: 150px auto;
@@ -85,5 +94,138 @@
 .div-about {
     max-width: 800px;
     width: 100%;
+    display: flex;
+    margin-top: 120px;
 
+}
+.about-text {
+    width: 450px;
+    font-size: 26px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    background-color: #E6DFD7;
+    text-align: center;
+    border-radius: 30px;
+
+}
+.about-image {
+    width: 500px;
+
+}
+.about-p {
+    font-size: 16px;
+    width: 350px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-top: 30px;
+
+}
+.buttom-more {
+    background-color: #B39F85;
+    color: white;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    height: 36px;
+    border-radius: 50px;
+    padding-top: 10px;
+    margin-left: 260px;
+}
+
+
+/* Section 2 */
+
+.section2 {
+    width: 100%;
+    margin: 150px auto;
+}
+.sec-div {
+    display: flex;
+    max-width: 1400px;
+    width: 80%;
+    margin-left: 120px;
+    
+    
+}
+
+.feature-text {
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.div-feature {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2ECE4;
+    height: 250px;
+    width: 700px;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 20px;
+
+}
+.car-text {
+    width: 150px;
+}
+.car {
+    width: 100px;
+}
+.warranty {
+    padding-bottom: 8px;
+    
+}
+
+
+/* Section 3 Shop */
+
+.section3 {
+    width: 80%;
+    height: 800px;
+    margin: 150px auto;
+    /* background-color: #B39F85; */
+    background-color: #F2ECE4;
+    
+}
+.new-arrival {
+    font-size: 46px;
+    padding-top: 100px;
+    padding-left: 120px;
+
+}
+
+.title2 {
+    font-size: 20px;
+    margin-top: 26px;
+    padding-left: 120px;
+    padding-bottom: 60px;
+}
+
+.sofa {
+    width: 200px;
+}
+.sofa-main {
+    width: 280px;
+}
+.details {
+    width: 200px;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+
+
+.sec3-div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.white-chair {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.price {
+    font-size: 22px;
+    font-style: bold;
 }
