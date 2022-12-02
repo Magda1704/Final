@@ -93,9 +93,11 @@
 }
 .div-about {
     max-width: 800px;
-    width: 100%;
+    width: 80%;
     display: flex;
     margin-top: 120px;
+    margin-left: 120px;
+    /* align-items: center; */
 
 }
 .about-text {
@@ -118,6 +120,7 @@
     text-align: justify;
     padding-left: 50px;
     padding-top: 30px;
+    
 
 }
 .buttom-more {
@@ -141,9 +144,10 @@
 }
 .sec-div {
     display: flex;
-    max-width: 1400px;
+    max-width: 1200px;
     width: 80%;
     margin-left: 120px;
+    
     
     
 }
@@ -180,7 +184,7 @@
 
 .section3 {
     width: 80%;
-    height: 800px;
+    height:850px;
     margin: 150px auto;
     /* background-color: #B39F85; */
     background-color: #F2ECE4;
@@ -216,10 +220,17 @@
 .sec3-div {
     display: flex;
     justify-content: space-between;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin: 0 auto;
+    align-items: center;
+    width: 80%;
+
 }
 
+
+.sec3-div .shop1 {
+    /* margin-right: 20px; */
+
+}
 .white-chair {
     font-size: 20px;
     padding-top: 10px;
@@ -228,4 +239,120 @@
 .price {
     font-size: 22px;
     font-style: bold;
+}
+
+
+/* hover effect middle / Ill add later */
+
+.buttom-buy {
+    background-color: #806035;
+    color: white;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    height: 46px;
+    border-radius: 50px;
+    margin: 0 auto;
+    padding-top: 15px;
+    margin-right: 30px;
+}
+
+.scroll2 {
+    width: 80px;
+    margin: 32px auto;
+}
+
+/* section 4 */
+
+/* .section4 {
+    width: 100%;
+    background-image: url(../images/blog2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative
+} */
+
+.conteiner4 {
+    width: 100%;
+    background-image: url(../images/blog2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    
+    
+}
+
+.buttom-view {
+
+    background-color: #806035;
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.header4-text {
+    margin-top: 200px;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.header4-text h1 {
+    margin: 50px auto;
+
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    width: 200px;
+    
+}
+/* 
+.header4-text h2 {
+    margin-top: 50px;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+} */
+
+/* cant add text to blog foto  */
+
+
+/* section 5 */
+
+.div5 {
+    margin-left: 150px;
+    
+
+
+}
+
+.group1 {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+}
+
+.group1-text {
+    width: 500px;
+    background-color: #E6DFD7;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.group1-text h3 {
+    margin-top: 40px;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+.group1-text p {
+    text-align: justify;
+    width: 400px;
+    margin-left: 40px;
+}
+
+.group2 {
+    display: flex;
 }
