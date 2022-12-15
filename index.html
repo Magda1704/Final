@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="online shop">
+    <meta name="keywords" content="features, living room, sofa">
+    <meta name="author" content="Magda">
+    <meta property="og:url" content="https://ninaniel.github.io/final-project-Cloobin/"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Music and Voices All Around Us" />
+    <meta property="og:description" content="electronic music news, club, events" />
+    
+    
+    
+    
+    
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -55,21 +70,20 @@
     
     <section class="section1">
         <div class="div1">
-            <nav class="nav-menu">
-                <ul class="ul-menu">
-                    <li class="menu">NEW ARRIVALS</li>
-                    <li class="menu">LIVING ROOM</li>
-                    <li class="menu">KITCHEN</li>
-                    <li class="menu">BADROOM</li>
-                    <li class="menu">OUTDOOR</li>
+           
+           <ul class="ul-menu">
+                <li class="menu">NEW ARRIVALS</li>
+                <li class="menu">LIVING ROOM</li>
+                <li class="menu">KITCHEN</li>
+                <li class="menu">BADROOM</li>
+                <li class="menu">OUTDOOR</li>
 
-                </ul>
-            </nav>
+            </ul>
         </div>
         <div class="div-about">
-            <div class="about-text">
+            <div class="about-text-div">
                 <h2 class="about-text">DESIGN YOUR HOME WITH </h2>
-                <h2>DREAM STUDIO</h2>
+                <h2 class="about-text">DREAM STUDIO</h2>
                 <p class="about-p">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
                      looked up on</p>
                 <div class="buttom-more">
@@ -119,7 +133,7 @@
     </section>
     
     <section class="section3">
-        <div>
+        <div class="sec3div">
             <h2 class="new-arrival">New Arrival</h2>
             <h3 class="title2">Spice up your home with latest furniture</h3>
         </div>
@@ -173,7 +187,8 @@
 
 
     <section class="section4">
-        <DIV class="conteiner4">
+        <!-- <img src="images/blog2.jpg" alt="blog"> -->
+        <div class="conteiner4">
             <div class="header4-text">
                 <h1 class="text1">New Design Collection</h1>
                 <h2 class="text2">Designed </h2>
@@ -183,38 +198,90 @@
                 <p>VIEW COLLECTION</p>
             </div>
            
-        </DIV>
+        </div>
       
 
     </section>
    
-    <section>
+    <section class="section5">
         <div class="div5">
             <div class="group1">
                 <div>
                     <img class="foto1" src="images/group1.jpg" alt="">
                 </div>
                 <div class="group1-text">
-                    <h3>Bedroom area</h3>
+                    <h3 class="group1h">Bedroom area</h3>
                     
-                    <p>Contrarce of classical Latin literature.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature. Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                    <p class="group1p">Contrarce of classical Latin literature.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature. Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
                     
                  </div>
 
 
             </div>
-            <div class="group2">
+            <div class="group1">
                 <div>
-                    <img src="images/group2.jpg" alt="">
+                    <img class="foto1" src="images/group2.jpg" alt="">
                 </div>
                 <div class="group1-text">
-                    <h3>Living Room</h3>
+                    <h3 class="group1h">Living Room</h3>
                     <p class="group1p">Contrarce m is not simply random text. It has roots in a piece of classical Latin literature.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature. Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
                 </div>
 
             </div>
         </div>
     </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-flex">
+                <h3 class="review-title">TELL US WHAT'S YOUR DREAM HOUSE </h3>
+                
+                    <div class="contact-form">
+                        
+                        <form class="form" action="">
+                            <div class="form-block">
+                                <textarea name="review" id="review" class="textarea" placeholder="Feel Free.. tell us more about what you like"></textarea> 
+                            
+                                <div class="checkbox">
+                                <div>
+                                    <input type="checkbox" id="Indoor" name="Indoor">
+                                    <label class="checkbox-item" for="Indoor">Indoor</label>
+                                </div>
+                               <div>
+                                    <input type="checkbox" id="Outdoor" name="Outdoor">
+                                    <label class="checkbox-item" for="Outdoor">Outdoor</label>
+                               </div> 
+                               
+        
+                                </div> 
+                            </div>
+    
+                            <div class="form-block">
+                                <div class="input-block">
+                                    <input class="input" type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                                </div>
+                                <div class="input-block">
+                                    <input class="input" type="number" id="age" name="age" placeholder="Enter Your Age" required>
+                                </div>
+                                <div class="input-block">
+                                    <input class="input" type="email" id="email" name="Email" placeholder="Enter Your e-mail" required>
+                                </div>
+                                <div class="radio-block">
+                                    <input type="radio" id="female" name="gender" value="female">
+                                    <label class="radioItem" for="female">female</label>
+                                </div>
+                               <div class="radio-block">
+                                    <input type="radio" id="male" name="gender" value="male">
+                                    <label class="radioItem" for="male">male</label>
+                               </div>  
+                               <button class="btn-submit" id="submit" type="submit" value="submit"> Join </button>                  
+                            </div>
+                        </form>
+            
+                    </div>    
+            </div>
+        </div>
+        </section>
 
 
     <footer>
@@ -261,7 +328,7 @@
                     <ul >
                         <li>
                           <i class="fa-solid fa-envelope"></i>
-                          <a href="mailto:info@dreamstudio.com"> info@dreamstudio.com</a>
+                          <a class="mail" href="mailto:info@dreamstudio.com"> info@dreamstudio.com</a>
                         </li>
                         <li>
                           <i class="fa-solid fa-phone"></i>
