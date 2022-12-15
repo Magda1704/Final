@@ -132,7 +132,7 @@
     }
 }
 
-@media (max-width 1080px) {
+@media (max-width 1080px ) {
     .sec3-div {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -511,10 +511,6 @@
 }
 
 
-.sec3-div .shop1 {
-    /* margin-right: 20px; */
-
-}
 .white-chair {
     font-size: 20px;
     padding-top: 10px;
@@ -612,16 +608,14 @@
     text-align: center;
 }
 
-/* cant add text to blog foto  */
+
 
 
 /* section 5 */
 
 
 
-.section5 {
-    /* max-width: 1000px; */
-}
+
 .div5 {
     /* max-width: 800px; */
     width: 80%;
